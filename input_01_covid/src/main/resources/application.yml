@@ -6,7 +6,7 @@ spring:
     name: input_covid_01
   data:
     mongodb:
-      uri: mongodb://localhost:27017/sistema-saude
+      uri: mongodb://localhost:27017/input01-covid
   kafka:
     bootstrap-servers: localhost:9092
     producer:

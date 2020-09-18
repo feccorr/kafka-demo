@@ -17,6 +17,8 @@ public class Covid19AsyncGatewayImpl implements Covid19AsyncGateway {
 
   private final ObjectMapper objectMapper;
 
+
+  //Envio da mensagem pelo topico saude-covid-input
   @Override
   public void enviarCovid(final Covid19 covid19) {
     final String mensagem = converterParaJson(covid19);

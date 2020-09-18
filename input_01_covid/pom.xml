@@ -11,9 +11,9 @@
     <relativePath/> <!-- lookup parent from repository -->
   </parent>
   <groupId>br.com.sistema.saude</groupId>
-  <artifactId>sistema-saude</artifactId>
+  <artifactId>input-01-covid</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>sistema-saude</name>
+  <name>input-01-covid</name>
   <properties>
     <java.version>1.8</java.version>
     <springfox.swagger.version>2.9.2</springfox.swagger.version>
