@@ -30,6 +30,8 @@ public class RegistrarVerbaSaude {
     return covid19DatabaseGateway.listarCovidPorData(date);
   }
 
+
+  //Map para salvar as regioes distingas da lista, somando sua quantidade de casos
   public Map<String, Long> listarCasosPorRegiao(List<Covid19> lista){
     Map<String, Long> map = lista.stream()
             .collect(groupingBy(Covid19::getRegiao,
