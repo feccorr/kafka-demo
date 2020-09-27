@@ -33,3 +33,9 @@ Modulo usado para receber os dados de covid por regiao e data atraves do topico 
 ```bash
 http://localhost:8081/swagger-ui.html
 ```
+
+
+## Configuração mongoDB
+
+Para o input_01_covid : input01-covid
+Para o módulo financeiro : sistema-financeiro
