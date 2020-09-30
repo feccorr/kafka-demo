@@ -49,7 +49,7 @@ public class VerbaSaudeController {
 
     List<CasosPorRegiao> casosRegiao =  new ArrayList<>();
 
-    // DTO com dois atributos, região e valor
+    // DTO com dois atributos, região e valor baseados na media de casos por dia
     casosPorRegiao.forEach((key, value) -> {
       CasosPorRegiao caso = new CasosPorRegiao();
       caso.setRegiao(key);
